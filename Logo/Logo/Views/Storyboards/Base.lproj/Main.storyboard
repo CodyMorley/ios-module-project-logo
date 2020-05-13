@@ -17,6 +17,24 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="62G-BC-mF9" customClass="LogoView" customModule="Logo" customModuleProvider="target">
                                 <rect key="frame" x="31" y="272" width="352" height="352"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o1y-ke-khT">
+                                        <rect key="frame" x="28" y="122" width="50" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="4Rf-2i-gwv"/>
+                                            <constraint firstAttribute="width" constant="50" id="omz-hx-7R6"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YUc-l0-K2K">
+                                        <rect key="frame" x="140" y="122" width="50" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="XJc-6P-7Dz"/>
+                                            <constraint firstAttribute="height" constant="50" id="pbr-fc-aXp"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="62G-BC-mF9" secondAttribute="height" multiplier="1:1" id="yzB-bp-mEV"/>

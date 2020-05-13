@@ -43,6 +43,9 @@
 			isa = PBXGroup;
 			children = (
 				5E8FE4F4246C939E00C650D6 /* Logo */,
+				5E8FE4FE246C93A500C650D6 /* Assets.xcassets */,
+				5E8FE50F246CA56C00C650D6 /* Resources */,
+				5E8FE50D246CA53800C650D6 /* Delegates */,
 				5E8FE4F3246C939E00C650D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,16 +61,54 @@
 		5E8FE4F4246C939E00C650D6 /* Logo */ = {
 			isa = PBXGroup;
 			children = (
-				5E8FE4F5246C939E00C650D6 /* AppDelegate.swift */,
-				5E8FE4F7246C939E00C650D6 /* SceneDelegate.swift */,
-				5E8FE4FB246C939E00C650D6 /* Main.storyboard */,
-				5E8FE4FE246C93A500C650D6 /* Assets.xcassets */,
-				5E8FE500246C93A500C650D6 /* LaunchScreen.storyboard */,
-				5E8FE503246C93A500C650D6 /* Info.plist */,
-				5E8FE509246C969700C650D6 /* LogoViewController.swift */,
-				5E8FE50B246C96E600C650D6 /* LogoView.swift */,
+				5E8FE511246CA5A700C650D6 /* View Controllers */,
+				5E8FE510246CA58400C650D6 /* Views */,
 			);
 			path = Logo;
+			sourceTree = "<group>";
+		};
+		5E8FE50D246CA53800C650D6 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FE4F5246C939E00C650D6 /* AppDelegate.swift */,
+				5E8FE4F7246C939E00C650D6 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		5E8FE50E246CA54900C650D6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FE4FB246C939E00C650D6 /* Main.storyboard */,
+				5E8FE500246C93A500C650D6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5E8FE50F246CA56C00C650D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FE503246C93A500C650D6 /* Info.plist */,
+			);
+			name = Resources;
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		5E8FE510246CA58400C650D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FE50B246C96E600C650D6 /* LogoView.swift */,
+				5E8FE50E246CA54900C650D6 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E8FE511246CA5A700C650D6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FE509246C969700C650D6 /* LogoViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
